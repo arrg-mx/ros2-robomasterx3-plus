@@ -1,5 +1,4 @@
-# ARRG: Curso ROS2 Humble, 2024-I  - Implementación del robot ROBOMASTER X3 plus en ROS2 Humble
-
+# ARRG: Curso ROS2 Humble, 2024-I  - Implementación del robot ROBOMASTER X3 Plus
 ## Contenido
 
 - [Desarrollo](#desarrollo)
