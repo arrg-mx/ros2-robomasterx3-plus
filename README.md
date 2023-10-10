@@ -45,3 +45,5 @@
 ### ¿Dónde empezar?
 
 1. **ROSMASTER X3 Plus repository** *(Official)* [Documentation](http://www.yahboom.net/study/ROSMASTER-X3-PLUS)
+
+**Nota:** Pueden usar la siguiente [plantilla](https://github.com/mrg-mex/mrg-plantilla-repositorio) como referencia de cómo empezar a estructurar su repositorio; así como una plantilla en Markdown para su reporte.
