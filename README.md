@@ -46,4 +46,6 @@
 
 1. **ROSMASTER X3 Plus repository** *(Official)* [Documentation](http://www.yahboom.net/study/ROSMASTER-X3-PLUS)
 
-**Nota:** Pueden usar la siguiente [plantilla](https://github.com/mrg-mex/mrg-plantilla-repositorio) como referencia de cómo empezar a estructurar su repositorio; así como una plantilla en Markdown para su reporte.
+---
+
+**Nota:** Usar la siguiente [plantilla](https://github.com/arrg-mx/fmtos-docs/blob/main/fmto-reporte-curso.md) para su reporte así como la [plantilla del repositorio](https://github.com/mrg-mex/mrg-plantilla-repositorio) como una guía para organizar sus archivos y referencia del formato Markdown para diferentes elementos que necesiten integrar en su reporte.
