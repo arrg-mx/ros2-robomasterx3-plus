@@ -38,7 +38,8 @@
 
 | Nombre | Observaciones |
 | :----------| :----------- |
-| Flores Rivas Eduardo | **responsable** | 
+| Flores Rivas Eduardo | | 
+| Meza Torres Francisco | **responsable** | 
 
 ## Referencias
 
