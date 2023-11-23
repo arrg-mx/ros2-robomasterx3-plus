@@ -1,0 +1,6 @@
+{
+  "package_name": "yahboom_web_savmap_interfaces",
+  "non_idl_tuples": [
+    "/home/rosuser/yahboom_ws/src/yahboom_web_savmap_interfaces:src/srv/WebSaveMap.srv"
+  ]
+}

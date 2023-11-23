@@ -1,0 +1,339 @@
+[0.190s] Invoking command in '/home/rosuser/yahboom_ws/build/yahboomcar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosuser/yahboom_ws/install/yahboomcar_description:/home/rosuser/yahboom_ws/install/yahboom_app_save_map:/home/rosuser/yahboom_ws/install/robot_pose_publisher:/home/rosuser/yahboom_ws/install/laserscan_to_point_pulisher:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_teleop:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/rosuser/yahboom_ws/src/yahboomcar_msgs -DCMAKE_INSTALL_PREFIX=/home/rosuser/yahboom_ws/install/yahboomcar_msgs
+[0.390s] -- The C compiler identification is GNU 11.4.0
+[0.523s] -- The CXX compiler identification is GNU 11.4.0
+[0.534s] -- Detecting C compiler ABI info
+[0.653s] -- Detecting C compiler ABI info - done
+[0.653s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.654s] -- Detecting C compile features
+[0.654s] -- Detecting C compile features - done
+[0.657s] -- Detecting CXX compiler ABI info
+[0.763s] -- Detecting CXX compiler ABI info - done
+[0.767s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.770s] -- Detecting CXX compile features
+[0.779s] -- Detecting CXX compile features - done
+[0.784s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.102s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.337s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.349s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.376s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.456s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.519s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.325s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.845s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.573s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.605s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.607s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.634s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.635s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.635s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.635s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.666s] -- Found PythonExtra: .so  
+[3.749s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.788s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.791s] -- Added test 'lint_cmake' to check CMake code style
+[3.793s] -- Added test 'xmllint' to check XML markup files
+[3.796s] -- Configuring done
+[3.843s] -- Generating done
+[3.847s] -- Build files have been written to: /home/rosuser/yahboom_ws/build/yahboomcar_msgs
+[3.863s] Invoked command in '/home/rosuser/yahboom_ws/build/yahboomcar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosuser/yahboom_ws/install/yahboomcar_description:/home/rosuser/yahboom_ws/install/yahboom_app_save_map:/home/rosuser/yahboom_ws/install/robot_pose_publisher:/home/rosuser/yahboom_ws/install/laserscan_to_point_pulisher:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_teleop:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/rosuser/yahboom_ws/src/yahboomcar_msgs -DCMAKE_INSTALL_PREFIX=/home/rosuser/yahboom_ws/install/yahboomcar_msgs
+[3.864s] Invoking command in '/home/rosuser/yahboom_ws/build/yahboomcar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosuser/yahboom_ws/install/yahboomcar_description:/home/rosuser/yahboom_ws/install/yahboom_app_save_map:/home/rosuser/yahboom_ws/install/robot_pose_publisher:/home/rosuser/yahboom_ws/install/laserscan_to_point_pulisher:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_teleop:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rosuser/yahboom_ws/build/yahboomcar_msgs -- -j2 -l2
+[3.941s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.949s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.741s] [  3%] Built target yahboomcar_msgs__cpp
+[4.773s] [  3%] Built target ament_cmake_python_copy_yahboomcar_msgs
+[4.790s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.359s] [  6%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/image_msg__type_support.cpp.o[0m
+[5.386s] [  7%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/image_msg__functions.c.o[0m
+[5.487s] [  9%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/point_array__functions.c.o[0m
+[5.579s] [ 11%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/position__functions.c.o[0m
+[5.681s] [ 12%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/target__functions.c.o[0m
+[5.789s] [ 14%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/point_array__type_support.cpp.o[0m
+[5.806s] [ 15%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/target_array__functions.c.o[0m
+[5.918s] [ 17%] [32m[1mLinking C shared library libyahboomcar_msgs__rosidl_generator_c.so[0m
+[5.997s] [ 17%] Built target yahboomcar_msgs__rosidl_generator_c
+[6.015s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.150s] [ 20%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/position__type_support.cpp.o[0m
+[6.440s] [ 22%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/target__type_support.cpp.o[0m
+[6.578s] [ 23%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/image_msg__type_support.cpp.o[0m
+[6.881s] [ 25%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/target_array__type_support.cpp.o[0m
+[7.249s] [ 26%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/point_array__type_support.cpp.o[0m
+[7.264s] [ 28%] [32m[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_cpp.so[0m
+[7.326s] [ 28%] Built target yahboomcar_msgs__rosidl_typesupport_cpp
+[7.347s] [ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.882s] [ 31%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/position__type_support.cpp.o[0m
+[7.940s] [ 33%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/image_msg__type_support.cpp.o[0m
+[8.417s] [ 34%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/target__type_support.cpp.o[0m
+[8.484s] [ 36%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/point_array__type_support.cpp.o[0m
+[8.928s] [ 38%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/target_array__type_support.cpp.o[0m
+[8.999s] [ 39%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/position__type_support.cpp.o[0m
+[9.440s] [ 41%] [32m[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.454s] [ 42%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/target__type_support.cpp.o[0m
+[9.543s] [ 42%] Built target yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp
+[9.871s] running egg_info
+[9.873s] creating yahboomcar_msgs.egg-info
+[9.874s] writing yahboomcar_msgs.egg-info/PKG-INFO
+[9.874s] writing dependency_links to yahboomcar_msgs.egg-info/dependency_links.txt
+[9.874s] writing top-level names to yahboomcar_msgs.egg-info/top_level.txt
+[9.875s] writing manifest file 'yahboomcar_msgs.egg-info/SOURCES.txt'
+[9.878s] reading manifest file 'yahboomcar_msgs.egg-info/SOURCES.txt'
+[9.879s] writing manifest file 'yahboomcar_msgs.egg-info/SOURCES.txt'
+[9.904s] [ 44%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/target_array__type_support.cpp.o[0m
+[9.915s] [ 44%] Built target ament_cmake_python_build_yahboomcar_msgs_egg
+[9.926s] [ 46%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.419s] [ 47%] [32m[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.465s] [ 49%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/image_msg__type_support_c.cpp.o[0m
+[10.529s] [ 49%] Built target yahboomcar_msgs__rosidl_typesupport_introspection_cpp
+[10.544s] [ 50%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.872s] [ 52%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/point_array__type_support_c.cpp.o[0m
+[11.108s] [ 53%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/image_msg__type_support.c.o[0m
+[11.154s] [ 55%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/point_array__type_support.c.o[0m
+[11.207s] [ 57%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/position__type_support.c.o[0m
+[11.247s] [ 58%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/target__type_support.c.o[0m
+[11.260s] [ 60%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/position__type_support_c.cpp.o[0m
+[11.294s] [ 61%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/target_array__type_support.c.o[0m
+[11.337s] [ 63%] [32m[1mLinking C shared library libyahboomcar_msgs__rosidl_typesupport_introspection_c.so[0m
+[11.385s] [ 63%] Built target yahboomcar_msgs__rosidl_typesupport_introspection_c
+[11.406s] [ 65%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.683s] [ 66%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/target__type_support_c.cpp.o[0m
+[11.833s] [ 68%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/image_msg__type_support.cpp.o[0m
+[11.866s] [ 69%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/point_array__type_support.cpp.o[0m
+[11.906s] [ 71%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/position__type_support.cpp.o[0m
+[11.937s] [ 73%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/target__type_support.cpp.o[0m
+[11.975s] [ 74%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/target_array__type_support.cpp.o[0m
+[12.014s] [ 76%] [32m[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_c.so[0m
+[12.060s] [ 76%] Built target yahboomcar_msgs__rosidl_typesupport_c
+[12.069s] [ 77%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/target_array__type_support_c.cpp.o[0m
+[12.411s] [ 79%] [32m[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[12.509s] [ 79%] Built target yahboomcar_msgs__rosidl_typesupport_fastrtps_c
+[12.530s] [ 79%] Built target yahboomcar_msgs
+[12.557s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.279s] [ 80%] Built target yahboomcar_msgs__py
+[13.305s] [ 82%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboomcar_msgs/msg/_point_array_s.c.o[0m
+[13.312s] [ 84%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboomcar_msgs/msg/_image_msg_s.c.o[0m
+[13.428s] [ 85%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboomcar_msgs/msg/_position_s.c.o[0m
+[13.451s] [ 87%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboomcar_msgs/msg/_target_s.c.o[0m
+[13.538s] [ 88%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboomcar_msgs/msg/_target_array_s.c.o[0m
+[13.638s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/yahboomcar_msgs/libyahboomcar_msgs__rosidl_generator_py.so[0m
+[13.698s] [ 90%] Built target yahboomcar_msgs__rosidl_generator_py
+[13.732s] [ 92%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.738s] [ 93%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.859s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.867s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.911s] [ 96%] Built target yahboomcar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[13.927s] [ 96%] Built target yahboomcar_msgs__rosidl_typesupport_introspection_c__pyext
+[13.939s] [ 98%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[14.048s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.093s] [100%] Built target yahboomcar_msgs__rosidl_typesupport_c__pyext
+[14.109s] Invoked command in '/home/rosuser/yahboom_ws/build/yahboomcar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosuser/yahboom_ws/install/yahboomcar_description:/home/rosuser/yahboom_ws/install/yahboom_app_save_map:/home/rosuser/yahboom_ws/install/robot_pose_publisher:/home/rosuser/yahboom_ws/install/laserscan_to_point_pulisher:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_teleop:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rosuser/yahboom_ws/build/yahboomcar_msgs -- -j2 -l2
+[14.283s] Invoking command in '/home/rosuser/yahboom_ws/build/yahboomcar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosuser/yahboom_ws/install/yahboomcar_description:/home/rosuser/yahboom_ws/install/yahboom_app_save_map:/home/rosuser/yahboom_ws/install/robot_pose_publisher:/home/rosuser/yahboom_ws/install/laserscan_to_point_pulisher:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_teleop:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rosuser/yahboom_ws/build/yahboomcar_msgs
+[14.292s] -- Install configuration: ""
+[14.293s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/ament_index/resource_index/rosidl_interfaces/yahboomcar_msgs
+[14.293s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs
+[14.294s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg
+[14.294s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/point_array.h
+[14.294s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/target.h
+[14.294s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/position.h
+[14.295s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail
+[14.295s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__functions.h
+[14.295s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__type_support.h
+[14.295s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__functions.c
+[14.295s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__type_support.h
+[14.296s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__functions.h
+[14.296s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__struct.h
+[14.296s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__functions.c
+[14.296s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__functions.h
+[14.297s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__struct.h
+[14.297s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__functions.h
+[14.297s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__functions.c
+[14.298s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__functions.c
+[14.298s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__type_support.h
+[14.298s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__type_support.h
+[14.298s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__struct.h
+[14.299s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__functions.h
+[14.299s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__struct.h
+[14.299s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__functions.c
+[14.300s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__type_support.h
+[14.300s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__struct.h
+[14.301s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/target_array.h
+[14.301s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/rosidl_generator_c__visibility_control.h
+[14.301s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/image_msg.h
+[14.302s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/library_path.sh
+[14.307s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/library_path.dsv
+[14.309s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_generator_c.so
+[14.310s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_generator_c.so" to ""
+[14.310s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs
+[14.311s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg
+[14.311s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.311s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail
+[14.311s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h
+[14.312s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[14.312s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__rosidl_typesupport_fastrtps_c.h
+[14.312s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+[14.312s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__rosidl_typesupport_fastrtps_c.h
+[14.313s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_fastrtps_c.so
+[14.313s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[14.313s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs
+[14.313s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg
+[14.314s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail
+[14.314s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__rosidl_typesupport_introspection_c.h
+[14.314s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__type_support.c
+[14.314s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__rosidl_typesupport_introspection_c.h
+[14.315s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__type_support.c
+[14.315s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__rosidl_typesupport_introspection_c.h
+[14.316s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_introspection_c.h
+[14.316s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__rosidl_typesupport_introspection_c.h
+[14.316s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__type_support.c
+[14.317s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__type_support.c
+[14.317s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__type_support.c
+[14.318s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.318s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_introspection_c.so
+[14.318s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_introspection_c.so" to ""
+[14.318s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_c.so
+[14.319s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_c.so" to ""
+[14.319s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs
+[14.320s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg
+[14.320s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/image_msg.hpp
+[14.320s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/target.hpp
+[14.320s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/position.hpp
+[14.321s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail
+[14.322s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__traits.hpp
+[14.322s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__builder.hpp
+[14.322s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__struct.hpp
+[14.322s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__builder.hpp
+[14.322s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__struct.hpp
+[14.323s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__traits.hpp
+[14.323s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__struct.hpp
+[14.323s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__builder.hpp
+[14.323s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__builder.hpp
+[14.323s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__traits.hpp
+[14.324s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__traits.hpp
+[14.324s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__struct.hpp
+[14.324s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__struct.hpp
+[14.324s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__traits.hpp
+[14.324s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__builder.hpp
+[14.325s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/target_array.hpp
+[14.325s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/point_array.hpp
+[14.325s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs
+[14.325s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg
+[14.325s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.326s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail
+[14.326s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__rosidl_typesupport_fastrtps_cpp.hpp
+[14.326s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[14.326s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/dds_fastrtps
+[14.326s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp
+[14.326s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[14.326s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+[14.326s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[14.327s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.327s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs
+[14.327s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg
+[14.327s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail
+[14.328s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__type_support.cpp
+[14.328s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[14.328s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__type_support.cpp
+[14.328s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__rosidl_typesupport_introspection_cpp.hpp
+[14.328s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp
+[14.328s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__type_support.cpp
+[14.328s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__rosidl_typesupport_introspection_cpp.hpp
+[14.328s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__type_support.cpp
+[14.329s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__type_support.cpp
+[14.329s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+[14.329s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_introspection_cpp.so
+[14.329s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[14.329s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_cpp.so
+[14.330s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_cpp.so" to ""
+[14.330s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/pythonpath.sh
+[14.330s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/pythonpath.dsv
+[14.330s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs-0.0.0-py3.10.egg-info
+[14.330s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[14.330s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[14.330s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[14.330s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[14.331s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs
+[14.331s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.331s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/__init__.py
+[14.331s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_c.c
+[14.331s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/libyahboomcar_msgs__rosidl_generator_py.so
+[14.331s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.331s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[14.332s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg
+[14.332s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/__init__.py
+[14.332s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_point_array_s.c
+[14.333s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_position_s.c
+[14.333s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_target_array.py
+[14.333s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_image_msg_s.c
+[14.333s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_image_msg.py
+[14.333s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_target_s.c
+[14.333s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_point_array.py
+[14.334s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_target.py
+[14.334s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_target_array_s.c
+[14.334s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_position.py
+[14.334s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.334s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.376s] Listing '/home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs'...
+[14.376s] Compiling '/home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/__init__.py'...
+[14.376s] Listing '/home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg'...
+[14.376s] Compiling '/home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/__init__.py'...
+[14.377s] Compiling '/home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_image_msg.py'...
+[14.377s] Compiling '/home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_point_array.py'...
+[14.377s] Compiling '/home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_position.py'...
+[14.377s] Compiling '/home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_target.py'...
+[14.377s] Compiling '/home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_target_array.py'...
+[14.383s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.383s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.383s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.384s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.384s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.384s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.384s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_generator_py.so
+[14.385s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_generator_py.so" to ""
+[14.385s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/ImageMsg.idl
+[14.385s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/PointArray.idl
+[14.385s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/Position.idl
+[14.385s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/Target.idl
+[14.385s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/TargetArray.idl
+[14.385s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/ImageMsg.msg
+[14.386s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/PointArray.msg
+[14.386s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/Position.msg
+[14.386s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/Target.msg
+[14.386s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/TargetArray.msg
+[14.386s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/ament_index/resource_index/package_run_dependencies/yahboomcar_msgs
+[14.386s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/ament_index/resource_index/parent_prefix_path/yahboomcar_msgs
+[14.387s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/ament_prefix_path.sh
+[14.387s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/ament_prefix_path.dsv
+[14.387s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/path.sh
+[14.387s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/path.dsv
+[14.387s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.bash
+[14.387s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.sh
+[14.387s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.zsh
+[14.388s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.dsv
+[14.388s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/package.dsv
+[14.388s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/ament_index/resource_index/packages/yahboomcar_msgs
+[14.388s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_generator_cExport.cmake
+[14.388s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_generator_cExport-noconfig.cmake
+[14.388s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[14.389s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.389s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.389s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.389s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cExport.cmake
+[14.390s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[14.390s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_generator_cppExport.cmake
+[14.390s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.390s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.390s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.390s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.390s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cppExport.cmake
+[14.390s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[14.390s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_generator_pyExport.cmake
+[14.390s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_generator_pyExport-noconfig.cmake
+[14.391s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/rosidl_cmake-extras.cmake
+[14.391s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.391s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.391s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.391s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.391s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.392s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.392s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgsConfig.cmake
+[14.392s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgsConfig-version.cmake
+[14.392s] -- Installing: /home/rosuser/yahboom_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/package.xml
+[14.395s] Invoked command in '/home/rosuser/yahboom_ws/build/yahboomcar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosuser/yahboom_ws/install/yahboomcar_description:/home/rosuser/yahboom_ws/install/yahboom_app_save_map:/home/rosuser/yahboom_ws/install/robot_pose_publisher:/home/rosuser/yahboom_ws/install/laserscan_to_point_pulisher:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_teleop:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rosuser/yahboom_ws/build/yahboomcar_msgs

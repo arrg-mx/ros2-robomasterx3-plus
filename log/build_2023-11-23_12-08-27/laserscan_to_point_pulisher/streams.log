@@ -1,0 +1,23 @@
+[1.576s] Invoking command in '/home/rosuser/yahboom_ws/src/laserscan_to_point_pulisher': PYTHONPATH=/home/rosuser/yahboom_ws/build/laserscan_to_point_pulisher/prefix_override:/home/rosuser/yahboom_ws/install/laserscan_to_point_pulisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/laserscan_to_point_pulisher build --build-base /home/rosuser/yahboom_ws/build/laserscan_to_point_pulisher/build install --record /home/rosuser/yahboom_ws/build/laserscan_to_point_pulisher/install.log --install-scripts $base/lib/laserscan_to_point_pulisher --single-version-externally-managed
+[1.842s] /home/rosuser/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.842s]   warnings.warn(
+[1.867s] running egg_info
+[1.867s] writing ../../build/laserscan_to_point_pulisher/laserscan_to_point_pulisher.egg-info/PKG-INFO
+[1.868s] writing dependency_links to ../../build/laserscan_to_point_pulisher/laserscan_to_point_pulisher.egg-info/dependency_links.txt
+[1.869s] writing entry points to ../../build/laserscan_to_point_pulisher/laserscan_to_point_pulisher.egg-info/entry_points.txt
+[1.869s] writing requirements to ../../build/laserscan_to_point_pulisher/laserscan_to_point_pulisher.egg-info/requires.txt
+[1.870s] writing top-level names to ../../build/laserscan_to_point_pulisher/laserscan_to_point_pulisher.egg-info/top_level.txt
+[1.875s] reading manifest file '../../build/laserscan_to_point_pulisher/laserscan_to_point_pulisher.egg-info/SOURCES.txt'
+[1.877s] writing manifest file '../../build/laserscan_to_point_pulisher/laserscan_to_point_pulisher.egg-info/SOURCES.txt'
+[1.879s] running build
+[1.879s] running build_py
+[1.882s] running install
+[1.882s] running install_lib
+[1.884s] running install_data
+[1.885s] running install_egg_info
+[1.887s] removing '/home/rosuser/yahboom_ws/install/laserscan_to_point_pulisher/lib/python3.10/site-packages/laserscan_to_point_pulisher-0.0.0-py3.10.egg-info' (and everything under it)
+[1.894s] Copying ../../build/laserscan_to_point_pulisher/laserscan_to_point_pulisher.egg-info to /home/rosuser/yahboom_ws/install/laserscan_to_point_pulisher/lib/python3.10/site-packages/laserscan_to_point_pulisher-0.0.0-py3.10.egg-info
+[1.896s] running install_scripts
+[1.915s] Installing laserscan_to_point_pulisher script to /home/rosuser/yahboom_ws/install/laserscan_to_point_pulisher/lib/laserscan_to_point_pulisher
+[1.918s] writing list of installed files to '/home/rosuser/yahboom_ws/build/laserscan_to_point_pulisher/install.log'
+[1.977s] Invoked command in '/home/rosuser/yahboom_ws/src/laserscan_to_point_pulisher' returned '0': PYTHONPATH=/home/rosuser/yahboom_ws/build/laserscan_to_point_pulisher/prefix_override:/home/rosuser/yahboom_ws/install/laserscan_to_point_pulisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/laserscan_to_point_pulisher build --build-base /home/rosuser/yahboom_ws/build/laserscan_to_point_pulisher/build install --record /home/rosuser/yahboom_ws/build/laserscan_to_point_pulisher/install.log --install-scripts $base/lib/laserscan_to_point_pulisher --single-version-externally-managed

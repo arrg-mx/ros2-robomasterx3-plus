@@ -1,0 +1,39 @@
+[1.896s] Invoking command in '/home/rosuser/yahboom_ws/src/robot_pose_publisher': PYTHONPATH=/home/rosuser/yahboom_ws/build/robot_pose_publisher/prefix_override:/home/rosuser/yahboom_ws/install/robot_pose_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_pose_publisher build --build-base /home/rosuser/yahboom_ws/build/robot_pose_publisher/build install --record /home/rosuser/yahboom_ws/build/robot_pose_publisher/install.log --install-scripts $base/lib/robot_pose_publisher --single-version-externally-managed
+[2.204s] /home/rosuser/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.204s]   warnings.warn(
+[2.242s] running egg_info
+[2.242s] creating ../../build/robot_pose_publisher/robot_pose_publisher.egg-info
+[2.242s] writing ../../build/robot_pose_publisher/robot_pose_publisher.egg-info/PKG-INFO
+[2.243s] writing dependency_links to ../../build/robot_pose_publisher/robot_pose_publisher.egg-info/dependency_links.txt
+[2.243s] writing entry points to ../../build/robot_pose_publisher/robot_pose_publisher.egg-info/entry_points.txt
+[2.243s] writing requirements to ../../build/robot_pose_publisher/robot_pose_publisher.egg-info/requires.txt
+[2.244s] writing top-level names to ../../build/robot_pose_publisher/robot_pose_publisher.egg-info/top_level.txt
+[2.244s] writing manifest file '../../build/robot_pose_publisher/robot_pose_publisher.egg-info/SOURCES.txt'
+[2.245s] reading manifest file '../../build/robot_pose_publisher/robot_pose_publisher.egg-info/SOURCES.txt'
+[2.246s] writing manifest file '../../build/robot_pose_publisher/robot_pose_publisher.egg-info/SOURCES.txt'
+[2.246s] running build
+[2.247s] running build_py
+[2.247s] creating /home/rosuser/yahboom_ws/build/robot_pose_publisher/build
+[2.247s] creating /home/rosuser/yahboom_ws/build/robot_pose_publisher/build/lib
+[2.247s] creating /home/rosuser/yahboom_ws/build/robot_pose_publisher/build/lib/robot_pose_publisher
+[2.247s] copying robot_pose_publisher/__init__.py -> /home/rosuser/yahboom_ws/build/robot_pose_publisher/build/lib/robot_pose_publisher
+[2.247s] copying robot_pose_publisher/robot_pose_publisher.py -> /home/rosuser/yahboom_ws/build/robot_pose_publisher/build/lib/robot_pose_publisher
+[2.247s] running install
+[2.247s] running install_lib
+[2.248s] creating /home/rosuser/yahboom_ws/install/robot_pose_publisher/lib/python3.10/site-packages/robot_pose_publisher
+[2.248s] copying /home/rosuser/yahboom_ws/build/robot_pose_publisher/build/lib/robot_pose_publisher/__init__.py -> /home/rosuser/yahboom_ws/install/robot_pose_publisher/lib/python3.10/site-packages/robot_pose_publisher
+[2.249s] copying /home/rosuser/yahboom_ws/build/robot_pose_publisher/build/lib/robot_pose_publisher/robot_pose_publisher.py -> /home/rosuser/yahboom_ws/install/robot_pose_publisher/lib/python3.10/site-packages/robot_pose_publisher
+[2.249s] byte-compiling /home/rosuser/yahboom_ws/install/robot_pose_publisher/lib/python3.10/site-packages/robot_pose_publisher/__init__.py to __init__.cpython-310.pyc
+[2.249s] byte-compiling /home/rosuser/yahboom_ws/install/robot_pose_publisher/lib/python3.10/site-packages/robot_pose_publisher/robot_pose_publisher.py to robot_pose_publisher.cpython-310.pyc
+[2.250s] running install_data
+[2.250s] creating /home/rosuser/yahboom_ws/install/robot_pose_publisher/share/ament_index
+[2.250s] creating /home/rosuser/yahboom_ws/install/robot_pose_publisher/share/ament_index/resource_index
+[2.251s] creating /home/rosuser/yahboom_ws/install/robot_pose_publisher/share/ament_index/resource_index/packages
+[2.251s] copying resource/robot_pose_publisher -> /home/rosuser/yahboom_ws/install/robot_pose_publisher/share/ament_index/resource_index/packages
+[2.251s] copying package.xml -> /home/rosuser/yahboom_ws/install/robot_pose_publisher/share/robot_pose_publisher
+[2.251s] running install_egg_info
+[2.253s] Copying ../../build/robot_pose_publisher/robot_pose_publisher.egg-info to /home/rosuser/yahboom_ws/install/robot_pose_publisher/lib/python3.10/site-packages/robot_pose_publisher-0.0.0-py3.10.egg-info
+[2.254s] running install_scripts
+[2.289s] Installing robot_pose_publisher script to /home/rosuser/yahboom_ws/install/robot_pose_publisher/lib/robot_pose_publisher
+[2.290s] writing list of installed files to '/home/rosuser/yahboom_ws/build/robot_pose_publisher/install.log'
+[2.347s] Invoked command in '/home/rosuser/yahboom_ws/src/robot_pose_publisher' returned '0': PYTHONPATH=/home/rosuser/yahboom_ws/build/robot_pose_publisher/prefix_override:/home/rosuser/yahboom_ws/install/robot_pose_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_pose_publisher build --build-base /home/rosuser/yahboom_ws/build/robot_pose_publisher/build install --record /home/rosuser/yahboom_ws/build/robot_pose_publisher/install.log --install-scripts $base/lib/robot_pose_publisher --single-version-externally-managed

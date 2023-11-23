@@ -1,0 +1,24 @@
+[2.068s] Invoking command in '/home/rosuser/yahboom_ws/src/yahboom_app_save_map': PYTHONPATH=/home/rosuser/yahboom_ws/build/yahboom_app_save_map/prefix_override:/home/rosuser/yahboom_ws/install/yahboom_app_save_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboom_app_save_map build --build-base /home/rosuser/yahboom_ws/build/yahboom_app_save_map/build install --record /home/rosuser/yahboom_ws/build/yahboom_app_save_map/install.log --install-scripts $base/lib/yahboom_app_save_map --single-version-externally-managed
+[2.527s] /home/rosuser/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.527s]   warnings.warn(
+[2.573s] running egg_info
+[2.575s] writing ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/PKG-INFO
+[2.577s] writing dependency_links to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/dependency_links.txt
+[2.577s] writing entry points to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/entry_points.txt
+[2.578s] writing requirements to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/requires.txt
+[2.578s] writing top-level names to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/top_level.txt
+[2.584s] reading manifest file '../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+[2.585s] writing manifest file '../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+[2.586s] running build
+[2.586s] running build_py
+[2.590s] running install
+[2.590s] running install_lib
+[2.592s] running install_data
+[2.594s] running install_egg_info
+[2.596s] removing '/home/rosuser/yahboom_ws/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map-0.0.0-py3.10.egg-info' (and everything under it)
+[2.597s] Copying ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info to /home/rosuser/yahboom_ws/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map-0.0.0-py3.10.egg-info
+[2.599s] running install_scripts
+[2.630s] Installing client script to /home/rosuser/yahboom_ws/install/yahboom_app_save_map/lib/yahboom_app_save_map
+[2.631s] Installing server script to /home/rosuser/yahboom_ws/install/yahboom_app_save_map/lib/yahboom_app_save_map
+[2.632s] writing list of installed files to '/home/rosuser/yahboom_ws/build/yahboom_app_save_map/install.log'
+[2.696s] Invoked command in '/home/rosuser/yahboom_ws/src/yahboom_app_save_map' returned '0': PYTHONPATH=/home/rosuser/yahboom_ws/build/yahboom_app_save_map/prefix_override:/home/rosuser/yahboom_ws/install/yahboom_app_save_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboom_app_save_map build --build-base /home/rosuser/yahboom_ws/build/yahboom_app_save_map/build install --record /home/rosuser/yahboom_ws/build/yahboom_app_save_map/install.log --install-scripts $base/lib/yahboom_app_save_map --single-version-externally-managed

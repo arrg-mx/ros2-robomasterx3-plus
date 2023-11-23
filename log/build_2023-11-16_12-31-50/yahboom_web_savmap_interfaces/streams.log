@@ -1,0 +1,235 @@
+[0.622s] Invoking command in '/home/rosuser/yahboom_ws/build/yahboom_web_savmap_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosuser/yahboom_ws/install/yahboomcar_description:/home/rosuser/yahboom_ws/install/yahboom_app_save_map:/home/rosuser/yahboom_ws/install/robot_pose_publisher:/home/rosuser/yahboom_ws/install/laserscan_to_point_pulisher:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_teleop:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/rosuser/yahboom_ws/src/yahboom_web_savmap_interfaces -DCMAKE_INSTALL_PREFIX=/home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces
+[0.736s] -- The C compiler identification is GNU 11.4.0
+[0.826s] -- The CXX compiler identification is GNU 11.4.0
+[0.836s] -- Detecting C compiler ABI info
+[0.919s] -- Detecting C compiler ABI info - done
+[0.927s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.928s] -- Detecting C compile features
+[0.928s] -- Detecting C compile features - done
+[0.934s] -- Detecting CXX compiler ABI info
+[1.030s] -- Detecting CXX compiler ABI info - done
+[1.039s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.039s] -- Detecting CXX compile features
+[1.040s] -- Detecting CXX compile features - done
+[1.044s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.284s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.436s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.522s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.530s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.544s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.566s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.606s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.777s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.131s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.525s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.683s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.714s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.716s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.754s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.755s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.755s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.755s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.794s] -- Found PythonExtra: .so  
+[2.847s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.888s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.890s] -- Added test 'lint_cmake' to check CMake code style
+[2.891s] -- Added test 'xmllint' to check XML markup files
+[2.897s] -- Configuring done
+[2.931s] -- Generating done
+[2.934s] -- Build files have been written to: /home/rosuser/yahboom_ws/build/yahboom_web_savmap_interfaces
+[2.947s] Invoked command in '/home/rosuser/yahboom_ws/build/yahboom_web_savmap_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosuser/yahboom_ws/install/yahboomcar_description:/home/rosuser/yahboom_ws/install/yahboom_app_save_map:/home/rosuser/yahboom_ws/install/robot_pose_publisher:/home/rosuser/yahboom_ws/install/laserscan_to_point_pulisher:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_teleop:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/rosuser/yahboom_ws/src/yahboom_web_savmap_interfaces -DCMAKE_INSTALL_PREFIX=/home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces
+[2.948s] Invoking command in '/home/rosuser/yahboom_ws/build/yahboom_web_savmap_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosuser/yahboom_ws/install/yahboomcar_description:/home/rosuser/yahboom_ws/install/yahboom_app_save_map:/home/rosuser/yahboom_ws/install/robot_pose_publisher:/home/rosuser/yahboom_ws/install/laserscan_to_point_pulisher:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_teleop:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rosuser/yahboom_ws/build/yahboom_web_savmap_interfaces -- -j2 -l2
+[3.017s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.049s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.440s] [  6%] Built target yahboom_web_savmap_interfaces__cpp
+[3.473s] [  6%] Built target ament_cmake_python_copy_yahboom_web_savmap_interfaces
+[3.485s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.592s] [ 12%] [32mBuilding C object CMakeFiles/yahboom_web_savmap_interfaces__rosidl_generator_c.dir/rosidl_generator_c/yahboom_web_savmap_interfaces/srv/detail/web_save_map__functions.c.o[0m
+[3.661s] [ 16%] [32m[1mLinking C shared library libyahboom_web_savmap_interfaces__rosidl_generator_c.so[0m
+[3.701s] [ 16%] Built target yahboom_web_savmap_interfaces__rosidl_generator_c
+[3.751s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.035s] [ 22%] [32mBuilding CXX object CMakeFiles/yahboom_web_savmap_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboom_web_savmap_interfaces/srv/web_save_map__type_support.cpp.o[0m
+[4.229s] [ 25%] [32mBuilding CXX object CMakeFiles/yahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboom_web_savmap_interfaces/srv/detail/dds_fastrtps/web_save_map__type_support.cpp.o[0m
+[4.676s] [ 29%] [32m[1mLinking CXX shared library libyahboom_web_savmap_interfaces__rosidl_typesupport_cpp.so[0m
+[4.849s] [ 29%] Built target yahboom_web_savmap_interfaces__rosidl_typesupport_cpp
+[4.886s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.019s] [ 35%] [32m[1mLinking CXX shared library libyahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.215s] [ 35%] Built target yahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.268s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.299s] [ 41%] [32mBuilding C object CMakeFiles/yahboom_web_savmap_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboom_web_savmap_interfaces/srv/detail/web_save_map__type_support.c.o[0m
+[5.337s] [ 45%] [32m[1mLinking C shared library libyahboom_web_savmap_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.422s] [ 45%] Built target yahboom_web_savmap_interfaces__rosidl_typesupport_introspection_c
+[5.439s] [ 48%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.648s] [ 51%] [32mBuilding CXX object CMakeFiles/yahboom_web_savmap_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboom_web_savmap_interfaces/srv/web_save_map__type_support.cpp.o[0m
+[5.685s] [ 54%] [32m[1mLinking CXX shared library libyahboom_web_savmap_interfaces__rosidl_typesupport_c.so[0m
+[5.733s] [ 54%] Built target yahboom_web_savmap_interfaces__rosidl_typesupport_c
+[5.934s] [ 58%] [32mBuilding CXX object CMakeFiles/yahboom_web_savmap_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboom_web_savmap_interfaces/srv/detail/web_save_map__type_support.cpp.o[0m
+[6.157s] running egg_info
+[6.157s] creating yahboom_web_savmap_interfaces.egg-info
+[6.164s] writing yahboom_web_savmap_interfaces.egg-info/PKG-INFO
+[6.165s] writing dependency_links to yahboom_web_savmap_interfaces.egg-info/dependency_links.txt
+[6.165s] writing top-level names to yahboom_web_savmap_interfaces.egg-info/top_level.txt
+[6.166s] writing manifest file 'yahboom_web_savmap_interfaces.egg-info/SOURCES.txt'
+[6.168s] reading manifest file 'yahboom_web_savmap_interfaces.egg-info/SOURCES.txt'
+[6.169s] writing manifest file 'yahboom_web_savmap_interfaces.egg-info/SOURCES.txt'
+[6.233s] [ 58%] Built target ament_cmake_python_build_yahboom_web_savmap_interfaces_egg
+[6.283s] [ 61%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.521s] [ 64%] [32m[1mLinking CXX shared library libyahboom_web_savmap_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.673s] [ 64%] Built target yahboom_web_savmap_interfaces__rosidl_typesupport_introspection_cpp
+[6.719s] [ 67%] [32mBuilding CXX object CMakeFiles/yahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboom_web_savmap_interfaces/srv/detail/web_save_map__type_support_c.cpp.o[0m
+[7.286s] [ 70%] [32m[1mLinking CXX shared library libyahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[7.365s] [ 70%] Built target yahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_c
+[7.393s] [ 70%] Built target yahboom_web_savmap_interfaces
+[7.414s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.139s] [ 74%] Built target yahboom_web_savmap_interfaces__py
+[8.167s] [ 77%] [32mBuilding C object CMakeFiles/yahboom_web_savmap_interfaces__rosidl_generator_py.dir/rosidl_generator_py/yahboom_web_savmap_interfaces/srv/_web_save_map_s.c.o[0m
+[8.285s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/yahboom_web_savmap_interfaces/libyahboom_web_savmap_interfaces__rosidl_generator_py.so[0m
+[8.355s] [ 80%] Built target yahboom_web_savmap_interfaces__rosidl_generator_py
+[8.396s] [ 83%] [32mBuilding C object CMakeFiles/yahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yahboom_web_savmap_interfaces/_yahboom_web_savmap_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.438s] [ 87%] [32mBuilding C object CMakeFiles/yahboom_web_savmap_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yahboom_web_savmap_interfaces/_yahboom_web_savmap_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.664s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.664s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.709s] [ 93%] Built target yahboom_web_savmap_interfaces__rosidl_typesupport_introspection_c__pyext
+[8.793s] [ 96%] [32mBuilding C object CMakeFiles/yahboom_web_savmap_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yahboom_web_savmap_interfaces/_yahboom_web_savmap_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[8.793s] [ 96%] Built target yahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[8.974s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.044s] [100%] Built target yahboom_web_savmap_interfaces__rosidl_typesupport_c__pyext
+[9.070s] Invoked command in '/home/rosuser/yahboom_ws/build/yahboom_web_savmap_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosuser/yahboom_ws/install/yahboomcar_description:/home/rosuser/yahboom_ws/install/yahboom_app_save_map:/home/rosuser/yahboom_ws/install/robot_pose_publisher:/home/rosuser/yahboom_ws/install/laserscan_to_point_pulisher:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_teleop:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rosuser/yahboom_ws/build/yahboom_web_savmap_interfaces -- -j2 -l2
+[9.737s] Invoking command in '/home/rosuser/yahboom_ws/build/yahboom_web_savmap_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosuser/yahboom_ws/install/yahboomcar_description:/home/rosuser/yahboom_ws/install/yahboom_app_save_map:/home/rosuser/yahboom_ws/install/robot_pose_publisher:/home/rosuser/yahboom_ws/install/laserscan_to_point_pulisher:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_teleop:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rosuser/yahboom_ws/build/yahboom_web_savmap_interfaces
+[9.772s] -- Install configuration: ""
+[9.773s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/ament_index/resource_index/rosidl_interfaces/yahboom_web_savmap_interfaces
+[9.773s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces
+[9.773s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv
+[9.774s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail
+[9.774s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail/web_save_map__type_support.h
+[9.774s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail/web_save_map__functions.h
+[9.774s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail/web_save_map__struct.h
+[9.775s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail/web_save_map__functions.c
+[9.775s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/web_save_map.h
+[9.775s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/msg
+[9.775s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.776s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/environment/library_path.sh
+[9.776s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/environment/library_path.dsv
+[9.776s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_generator_c.so
+[9.777s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_generator_c.so" to ""
+[9.777s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces
+[9.777s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv
+[9.777s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail
+[9.778s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail/web_save_map__rosidl_typesupport_fastrtps_c.h
+[9.778s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/msg
+[9.782s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.783s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_c.so
+[9.784s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[9.784s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces
+[9.784s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv
+[9.785s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/web_save_map.hpp
+[9.785s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail
+[9.785s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail/web_save_map__struct.hpp
+[9.786s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail/web_save_map__builder.hpp
+[9.786s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail/web_save_map__traits.hpp
+[9.787s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces
+[9.787s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv
+[9.788s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail
+[9.788s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail/web_save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[9.789s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail/dds_fastrtps
+[9.795s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/msg
+[9.795s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.796s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.796s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.797s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces
+[9.797s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv
+[9.797s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail
+[9.797s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail/web_save_map__type_support.c
+[9.798s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail/web_save_map__rosidl_typesupport_introspection_c.h
+[9.798s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/msg
+[9.798s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.798s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_typesupport_introspection_c.so
+[9.799s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[9.799s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_typesupport_c.so
+[9.799s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_typesupport_c.so" to ""
+[9.800s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces
+[9.800s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv
+[9.800s] -- Up-to-date: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail
+[9.800s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail/web_save_map__type_support.cpp
+[9.801s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces/srv/detail/web_save_map__rosidl_typesupport_introspection_cpp.hpp
+[9.801s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_typesupport_introspection_cpp.so
+[9.810s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[9.810s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_typesupport_cpp.so
+[9.811s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_typesupport_cpp.so" to ""
+[9.811s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/environment/pythonpath.sh
+[9.811s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/environment/pythonpath.dsv
+[9.811s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces-0.0.0-py3.10.egg-info
+[9.812s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[9.812s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[9.812s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.813s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.813s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces
+[9.813s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/_yahboom_web_savmap_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.814s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/__init__.py
+[9.814s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.814s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.815s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/_yahboom_web_savmap_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[9.815s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/srv
+[9.815s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/srv/_web_save_map.py
+[9.816s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/srv/__init__.py
+[9.816s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/srv/_web_save_map_s.c
+[9.816s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/libyahboom_web_savmap_interfaces__rosidl_generator_py.so
+[9.816s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/_yahboom_web_savmap_interfaces_s.ep.rosidl_typesupport_c.c
+[9.817s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.897s] Listing '/home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces'...
+[9.897s] Compiling '/home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/__init__.py'...
+[9.897s] Listing '/home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/srv'...
+[9.897s] Compiling '/home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/srv/__init__.py'...
+[9.897s] Compiling '/home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/srv/_web_save_map.py'...
+[9.901s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.901s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.902s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.902s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.902s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.902s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.903s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_generator_py.so
+[9.903s] -- Set runtime path of "/home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_generator_py.so" to ""
+[9.903s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/srv/WebSaveMap.idl
+[9.903s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/srv/WebSaveMap.srv
+[9.903s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/srv/WebSaveMap_Request.msg
+[9.903s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/srv/WebSaveMap_Response.msg
+[9.904s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/ament_index/resource_index/package_run_dependencies/yahboom_web_savmap_interfaces
+[9.904s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/ament_index/resource_index/parent_prefix_path/yahboom_web_savmap_interfaces
+[9.904s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/environment/ament_prefix_path.sh
+[9.904s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/environment/ament_prefix_path.dsv
+[9.904s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/environment/path.sh
+[9.905s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/environment/path.dsv
+[9.905s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/local_setup.bash
+[9.905s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/local_setup.sh
+[9.905s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/local_setup.zsh
+[9.905s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/local_setup.dsv
+[9.906s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/package.dsv
+[9.906s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/ament_index/resource_index/packages/yahboom_web_savmap_interfaces
+[9.906s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/export_yahboom_web_savmap_interfaces__rosidl_generator_cExport.cmake
+[9.906s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/export_yahboom_web_savmap_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.906s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/export_yahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[9.906s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/export_yahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.906s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/export_yahboom_web_savmap_interfaces__rosidl_generator_cppExport.cmake
+[9.906s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/export_yahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.907s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/export_yahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.907s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.907s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.907s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_typesupport_cExport.cmake
+[9.914s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.914s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.914s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.915s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_typesupport_cppExport.cmake
+[9.915s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.915s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/export_yahboom_web_savmap_interfaces__rosidl_generator_pyExport.cmake
+[9.915s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/export_yahboom_web_savmap_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[9.915s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/rosidl_cmake-extras.cmake
+[9.915s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.915s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[9.916s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[9.916s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.916s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.916s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.916s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfacesConfig.cmake
+[9.916s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfacesConfig-version.cmake
+[9.917s] -- Installing: /home/rosuser/yahboom_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/package.xml
+[9.921s] Invoked command in '/home/rosuser/yahboom_ws/build/yahboom_web_savmap_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosuser/yahboom_ws/install/yahboomcar_description:/home/rosuser/yahboom_ws/install/yahboom_app_save_map:/home/rosuser/yahboom_ws/install/robot_pose_publisher:/home/rosuser/yahboom_ws/install/laserscan_to_point_pulisher:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_teleop:/home/rosuser/ROS2Dev/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rosuser/yahboom_ws/build/yahboom_web_savmap_interfaces
